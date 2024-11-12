@@ -16,6 +16,7 @@
 4. **لصق الكود**  
    انسخ الكود من هذا المستودع وقم بلصقه في الـ Console.
 
+![console example](https://prnt.sc/IB50T251eQue)
 5. **حل الاستبيان تلقائيًا**  
    سيقوم السكربت بحل جميع أسئلة الاستبيان بشكل تلقائي.
 
@@ -46,6 +47,7 @@ script to bypass course survey questions in electronic service systems.
 
 4. **Paste the Code**  
    Copy the code from this repository and paste it into the Console.
+![console example](https://prnt.sc/IB50T251eQue)
 
 5. **Automatic Survey Completion**  
    The script will automatically complete all survey questions.
