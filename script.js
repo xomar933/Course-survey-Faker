@@ -13,7 +13,7 @@ var value = '1'; // 1 = راضي جدا
 const questionRows = document.querySelectorAll('#questions > tbody > tr');
 // لوب لتعبئة واختيار جميع الاسئلة
 for (let i = 2; i <= questionRows.length; i++) {
-    selectElement(`#questions > tbody > tr:nth-child(${i}) > td:nth-child(2) > select`, value);
+    selectElement(`#questions > tbody > tr:nth-child(${i}) > td:nth-child(3) > select`, value);
 }
 
 // تعبئة مربع الملاحظات في الاسفل
@@ -23,7 +23,7 @@ commentInputs.forEach(input => {
 });
 
 // النقر على زر الإرسال
-const submitButton = document.querySelector('body > div.pagebodydiv > form > p > input[type=submit]:nth-child(3)');
+const submitButton = document.querySelector('#id____UID5 > div');
 if (submitButton) {
     submitButton.click();
 }
