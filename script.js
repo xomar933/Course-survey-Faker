@@ -13,7 +13,7 @@ var value = '1'; // 1 = راضي جدا
 const questionRows = document.querySelectorAll('#questions > tbody > tr');
 // لوب لتعبئة واختيار جميع الاسئلة
 for (let i = 2; i <= questionRows.length; i++) {
-    selectElement(`#questions > tbody > tr:nth-child(${i}) > td:nth-child(3) > select`, value);
+    selectElement(`#questions > tbody > tr:nth-child(${i}) > td:nth-child(2) > select`, value);
 }
 
 // تعبئة مربع الملاحظات في الاسفل
